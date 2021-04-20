@@ -2,6 +2,12 @@
 
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
+    <Authors>matihuf</Authors>
+    <Description>ASP.NET Core Swashbuckle extensions</Description>
+    <PackageProjectUrl></PackageProjectUrl>
+    <RepositoryUrl>https://github.com/matihuf/Shared.Swagger.AspNetCore</RepositoryUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageTags>swashbuckle</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>

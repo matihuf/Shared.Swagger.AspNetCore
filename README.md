@@ -20,9 +20,9 @@ Shared configuration for all DoNotBuy projects
 ```
 3. Configure service in Startup.cs
 ```csharp
-    services.AddSwagger(Configuration);
+    services.AddSwagger(Configuration.GetSection(nameof(SwaggerConfiguration)).Get<SwaggerConfiguration>());
 ```
 4. Enable Swagger middleware 
 ```csharp
-    app.UseSwagger(Configuration);
+    app.UseSwagger(Configuration.GetSection(nameof(SwaggerConfiguration)).Get<SwaggerConfiguration>());
 ```
